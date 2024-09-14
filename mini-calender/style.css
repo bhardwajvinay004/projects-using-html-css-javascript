@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: cadetblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.calender-container {
+  background-color: whitesmoke;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.month {
+  margin: 0;
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.day {
+  font-size: 20px;
+  color: darkgray;
+  margin: 20px 0 0;
+}
+
+.date {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.year {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 20px;
+  color: darkgray;
+}
